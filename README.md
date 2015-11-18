@@ -1,5 +1,5 @@
 # angularjs-sidebar
-A simple Angular sidebar
+A simple, yet useful, Angular sidebar.
 
 **Specs**
 
