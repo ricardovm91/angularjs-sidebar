@@ -32,4 +32,4 @@ MIT.
 
 **Note**
 
-This is my first public repo, so if you have any questions or suggestions just go to [my blog](http://www.ricardovm91.com) and contact me.
+This is my first public repo, so if you have any suggestions just go to [my blog](http://www.ricardovm91.com) and contact me.
