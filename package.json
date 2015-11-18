@@ -1,0 +1,24 @@
+{
+  "name": "angular-sidebar",
+  "version": "1.0.0",
+  "description": "Simple sidebar with Angular JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardovm91/angularjs-sidebar.git"
+  },
+  "author": "Ricardo Velasquez <ricardovm91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricardovm91/angularjs-sidebar/issues"
+  },
+  "homepage": "https://github.com/ricardovm91/angularjs-sidebar#readme",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-wiredep": "^2.0.0"
+  }
+}

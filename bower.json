@@ -1,0 +1,25 @@
+{
+  "name": "Angular Sidebar",
+  "homepage": "https://github.com/ricardovm91/angularjs-sidebar",
+  "authors": [
+    "Ricardo Velasquez <ricardovm91@gmail.com>"
+  ],
+  "description": "Simple sidebar with Angular JS",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.7"
+  }
+}

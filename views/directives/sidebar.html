@@ -1,0 +1,12 @@
+<div class="view-default sidebar-container">
+	<div class="view-default sidebar-inner">
+		<navigator
+	  		ng-repeat='item in items track by $index'
+	  		click-target="item.clickTarget"
+	  		click-caption="item.clickCaption"
+	  		pill-target="item.pillTarget"
+	  		nav-type="item.navType"
+	  		icon="item.icon">
+	  	</navigator>
+	</div>
+</div>

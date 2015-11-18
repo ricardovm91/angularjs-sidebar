@@ -1,0 +1,209 @@
+.view-default{
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+}
+
+.ngview-wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.view-wrapper{
+  width: 100%;
+  min-height: 100%;
+}
+
+.scroller{
+  overflow: auto;
+}
+
+
+/*/////////////////////////////////////SIDEBAR///////////////////////////////////////////////////////////*/
+.sidebar-container{
+  padding: 0;
+  background-color: #999A9A; /*dark grey*/
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sidebar-button{
+  cursor: pointer;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.sidebar-button-container{
+  position: relative;
+  top: 50%;
+  width: 100%;
+}
+
+.sidebar-logo-container{
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  position: relative;
+  height: 65px;
+  width: 65px;
+  top: 50%;
+  margin-top: -32.5px;
+}
+
+.sidebar-button-content{
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.selectedBut{
+  color: #660A0A; /*burgundy*/
+  background-color: #E5E7E6 !important; /*light grey*/
+  font-weight: 300 !important;
+}
+
+.sidebar-nav{
+  background-color: transparent;
+}
+
+.sidebar-nav:hover{
+  color: #660A0A !important; /*burgundy*/
+  background-color: #E5E7E6; /*light grey*/
+  font-weight: 300;
+}
+
+.brand:hover{
+  background-color: #999A9A; /*dark grey*/
+}
+
+/*////////////////////////////////////////SMALLEST DEVICES//////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 400px){
+  /*/////////////////////////////////////SIDEBAR///////////////////////////////////////////////////////////*/
+  .sidebar-container{
+    height: 70px;
+    width: 100%;
+  }
+
+  .sidebar-inner{
+    height: 100%;
+    width: 100%;
+  }
+
+ .sidebar-nav{
+    height: 70px;
+  }
+
+  .sidebar-button{
+    width: 85px;
+    border-right: 1px solid #660A0A; /*burgundy*/
+    font-size: 12px;
+  }
+
+  .sidebar-button-container{
+    height: 28px;
+    margin-top: -14px;
+  }
+
+}
+
+/*////////////////////////////////////////VERY SMALL DEVICES//////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 401px){
+  /*/////////////////////////////////////SIDEBAR///////////////////////////////////////////////////////////*/
+  .sidebar-container{
+    height: 70px;
+    width: 100%;
+  }
+
+  .sidebar-inner{
+    height: 100%;
+    width: 100%;
+  }
+
+  .sidebar-nav{
+    height: 70px;
+  }
+
+  .sidebar-button{
+    width: 85px;
+    border-right: 1px solid #660A0A; /*burgundy*/
+    font-size: 12px;
+  }
+
+  .sidebar-button-container{
+    height: 28px;
+    margin-top: -14px;
+  }
+
+}
+
+/*////////////////////////////////////////SMALL DEVICES//////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  /*/////////////////////////////////////SIDEBAR///////////////////////////////////////////////////////////*/
+  .sidebar-container{
+    height: 90px;
+    width: 100%;
+  }
+
+  .sidebar-inner{
+    height: 100%;
+    width: 100%;
+  }
+
+  .sidebar-nav{
+    height: 90px;
+  }
+
+  .sidebar-button{
+    width: 100px;
+    border-right: 1px solid #660A0A; /*burgundy*/
+    font-size: 14px;
+  }
+
+  .sidebar-button-container{
+    height: 36px;
+    margin-top: -18px;
+  }
+
+}
+
+/*////////////////////////////////////////MEDIUM DEVICES//////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 992px){
+  /*/////////////////////////////////////SIDEBAR///////////////////////////////////////////////////////////*/
+  .sidebar-container{
+    width: 120px;
+    height: 100%;
+  }
+
+  .sidebar-inner{
+    height: 100%;
+    width: 100%;
+  }
+
+  .sidebar-nav{
+    height: 80px;
+  }
+
+  .sidebar-button{
+    width: 100%;
+    border-bottom: 1px solid #660A0A; /*burgundy*/
+    border-right: 0;
+    font-size: 15px;
+  }
+
+  .sidebar-button-container{
+    height: 38px;
+    margin-top: -19px;
+  }
+
+}
+
+/*////////////////////////////////////////LARGE DEVICES//////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 1200px){
+
+}

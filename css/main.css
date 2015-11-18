@@ -1,0 +1,12 @@
+.global-container{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #E5E7E6; /*light grey*/
+}
+
+h1{
+  color: #660A0A; /*burgundy*/
+}
