@@ -1,23 +1,8 @@
-.view-default{
+.sidebar-default{
   position: relative;
   float: left;
   box-sizing: border-box;
 }
-
-.ngview-wrapper{
-  width: 100%;
-  height: 100%;
-}
-
-.view-wrapper{
-  width: 100%;
-  min-height: 100%;
-}
-
-.scroller{
-  overflow: auto;
-}
-
 
 /*/////////////////////////////////////SIDEBAR///////////////////////////////////////////////////////////*/
 .sidebar-container{

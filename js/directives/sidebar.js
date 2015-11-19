@@ -9,10 +9,10 @@ angular.module('app')
       },
       link: function(scope, element, attrs){
 		var resizeId;
-		window.onload = function () {
-			clearTimeout(resizeId);
+		$(document).ready(function() {
+		    clearTimeout(resizeId);
 			resizeId = setTimeout(resizeInner, 400);
-		}
+		});
 
 		/*We need to resize the scrollable div (sidebar-inner) if the window us resized.
 		This is done when the window resize is "finished". It's a trick but we don't want to run code during the whole resize, just one time*/
