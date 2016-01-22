@@ -7,14 +7,14 @@
 /*/////////////////////////////////////SIDEBAR///////////////////////////////////////////////////////////*/
 .sidebar-container{
   padding: 0;
-  background-color: #999A9A; /*dark grey*/
+  background-color: #40464d; /*light grey*/
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
 
 .sidebar-button{
   cursor: pointer;
-  color: black;
+  color: white; /*white*/
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   text-align: center;
@@ -35,10 +35,10 @@
 
 .logo{
   position: relative;
-  height: 65px;
+  height: 50px;
   width: 65px;
   top: 50%;
-  margin-top: -32.5px;
+  margin-top: -25px;
 }
 
 .sidebar-button-content{
@@ -48,23 +48,13 @@
 }
 
 .selectedBut{
-  color: #660A0A; /*burgundy*/
-  background-color: #E5E7E6 !important; /*light grey*/
+  color: #4ab607 !important; /*light green*/
+  background-color: #2B2F36 !important; /*Dark Grey*/
   font-weight: 300 !important;
 }
 
 .sidebar-nav{
   background-color: transparent;
-}
-
-.sidebar-nav:hover{
-  color: #660A0A !important; /*burgundy*/
-  background-color: #E5E7E6; /*light grey*/
-  font-weight: 300;
-}
-
-.brand:hover{
-  background-color: #999A9A; /*dark grey*/
 }
 
 /*////////////////////////////////////////SMALLEST DEVICES//////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -86,7 +76,7 @@
 
   .sidebar-button{
     width: 85px;
-    border-right: 1px solid #660A0A; /*burgundy*/
+    border-right: 1px solid #2B2F36; /*Dark Grey*/
     font-size: 12px;
   }
 
@@ -116,7 +106,7 @@
 
   .sidebar-button{
     width: 85px;
-    border-right: 1px solid #660A0A; /*burgundy*/
+    border-right: 1px solid #2B2F36; /*Dark Grey*/
     font-size: 12px;
   }
 
@@ -146,7 +136,7 @@
 
   .sidebar-button{
     width: 100px;
-    border-right: 1px solid #660A0A; /*burgundy*/
+    border-right: 1px solid #2B2F36; /*Dark Grey*/
     font-size: 14px;
   }
 
@@ -176,7 +166,7 @@
 
   .sidebar-button{
     width: 100%;
-    border-bottom: 1px solid #660A0A; /*burgundy*/
+    border-bottom: 1px solid #2B2F36; /*Dark Grey*/
     border-right: 0;
     font-size: 15px;
   }
@@ -184,6 +174,16 @@
   .sidebar-button-container{
     height: 38px;
     margin-top: -19px;
+  }
+
+  .sidebar-nav:hover{
+    color: #4ab607 !important; /*light green*/
+    background-color: #2B2F36; /*Dark Grey*/
+    font-weight: 300;
+  }
+
+  .brand:hover{
+    background-color: #40464d; /*light grey*/
   }
 
 }

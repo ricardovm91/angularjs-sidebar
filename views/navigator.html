@@ -1,0 +1,16 @@
+<div
+  class="sidebar-default sidebar-button sidebar-nav"
+  ng-class="{selectedBut : selectedPill == pillTarget && navType == 1, brand : navType == 0}"
+  ng-click="changePill()">
+    <div ng-if="navType == 1" class="sidebar-button-container">
+      <span
+        class="{{icon}} sidebar-button-content" aria-hidden="true">
+      </span> 
+      <span class="sidebar-button-content">
+        {{clickCaption}}
+      </span>
+    </div>  
+    <div ng-if="navType == 0" class="sidebar-logo-container">
+        <img class="logo" ng-src="{{icon}}">
+    </div>
+</div>
